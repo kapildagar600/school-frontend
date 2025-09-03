@@ -34,11 +34,11 @@ const SchoolsPage = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-300 via-blue-300 to-yellow-200 bg-clip-text text-transparent">
             Find the Perfect School
           </h1>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto  text-center">
-            Discover the best educational institutions for your child's future
+         <p className="text-xl text-gray-300 ">
+            Discover the best educational institutions  for your child's future
           </p>
         </header>
-
+       
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 mt-6 ">
           {data.length > 0 ? (
             data.map((school) => (
